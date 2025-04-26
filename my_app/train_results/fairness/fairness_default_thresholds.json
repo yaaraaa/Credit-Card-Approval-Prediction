@@ -1,0 +1,26 @@
+{
+    "Demographic Parity Difference": 0.3731135753468688,
+    "Equalized Odds": {
+        "TPR Difference": 0.034828446563040516,
+        "FPR Difference": 0.018088783808154443
+    },
+    "Predictive Parity Difference": 0.057880886854702496,
+    "Details": {
+        "Approval Rates": {
+            "Male": 0.581479164059567,
+            "Female": 0.20836558871269822
+        },
+        "TPR": {
+            "Male": 0.9835879528590136,
+            "Female": 0.948759506295973
+        },
+        "FPR": {
+            "Male": 0.04100909357582869,
+            "Female": 0.022920309767674243
+        },
+        "Precision": {
+            "Male": 0.9699134851289115,
+            "Female": 0.912032598274209
+        }
+    }
+}
