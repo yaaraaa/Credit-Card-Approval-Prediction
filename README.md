@@ -1,5 +1,5 @@
 # Credit Card Approval Prediction App
-A Django-based application that predicts credit card approvals using a trained logistic regression model, incorporating fairness adjustments and interpretability insights.
+This project is a Django-based web application that predicts credit card approvals using a trained logistic regression model. Beyond simple prediction, the system addresses real-world challenges like class imbalance, bias and variance trade-offs, and fair decision-making across demographics.
 
 ## Python Version
 - 3.10.0
