@@ -6,9 +6,7 @@ A Django-based application that predicts credit card approvals using a trained l
 
 ## Modules
 - `/model`: Directory containing the saved trained model, calculated optimal prediction thresholds and scaler, used for inference.
-- `/data`: Contains the original raw csv data file.
 - `/train_results`: Stores results of performance, fairness, and interpretability evaluations, including JSON files and plots.
-- `/splits`: Directory holding train and test data splits for model evaluation.
 - `train.py`: Script for preprocessing data, training the model, and saving the model and scaler.
 - `evaluate.py`: Evaluates model performance, fairness, bias/variance, and interpretability, saving results in JSON and visual formats, also computes gender-specific thresholds to improve fairness, saved for use in inference.
 - `serializers.py`: Define the structure and validation for incoming data.
